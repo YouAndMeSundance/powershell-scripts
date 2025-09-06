@@ -1,0 +1,4 @@
+GivenName,Surname,SamAccountName,UserPrincipalName,OU,Groups,Password
+Jordan,Sena,jsena,jsena@corp.local,"OU=Users,OU=Corp,DC=corp,DC=local","Domain Users;Helpdesk",P@ssw0rd!
+Alex,Turner,aturner,aturner@corp.local,"OU=Users,OU=Corp,DC=corp,DC=local","Domain Users;Sales",P@ssw0rd!
+Maya,Gibson,mgibson,mgibson@corp.local,"OU=Users,OU=Corp,DC=corp,DC=local","Domain Users;Accounting",P@ssw0rd!
