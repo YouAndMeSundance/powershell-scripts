@@ -17,8 +17,6 @@ Creates and enables new AD users from a CSV file.
 GivenName,Surname,SamAccountName,UserPrincipalName,OU,Groups,Password
 Jordan,Sena,jsena,jsena@corp.local,"OU=Users,OU=Corp,DC=corp,DC=local","Domain Users;Helpdesk",P@ssw0rd!
 
-pgsql
-Copy code
 
 **Run**
 ```powershell
@@ -39,7 +37,7 @@ Output can be piped into Export-Csv
 Run
 
 powershell
-Copy code
+
 # Single user
 .\Get-AccessReport.ps1 -Identity jsena
 
@@ -51,7 +49,7 @@ Copy code
 Sample output
 
 pgsql
-Copy code
+
 User    Enabled Locked Groups
 ----    ------- ------ -----------------------------------------
 jsena   True    False  Domain Users; Helpdesk; VPN-Access
@@ -61,7 +59,7 @@ Install RSAT with the Active Directory module on your workstation.
 Open PowerShell as Administrator and import the AD module:
 
 powershell
-Copy code
+
 Import-Module ActiveDirectory
 Place your CSV (like new_hires.csv) in the same directory as the script or specify a full path.
 
